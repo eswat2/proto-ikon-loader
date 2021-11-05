@@ -1,0 +1,6 @@
+.ikonBox {
+  width: var(--proto-ikon-size);
+  height: var(--proto-ikon-size);
+  overflow: clip;
+  margin-right: auto;
+}

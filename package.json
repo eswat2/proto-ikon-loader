@@ -1,0 +1,37 @@
+{
+  "name": "proto-icon-loader-wc",
+  "version": "0.0.0",
+  "description": "Stencil Component Starter",
+  "main": "dist/index.cjs.js",
+  "module": "dist/custom-elements/index.js",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/custom-elements/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/proto-ikon-loader-wc/proto-ikon-loader-wc.esm.js",
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "scripts": {
+    "build": "stencil build --docs",
+    "start": "stencil build --dev --watch --serve",
+    "test": "echo --skip",
+    "generate": "stencil generate",
+    "prebuild": "yarn format",
+    "predeploy": "yarn build",
+    "deploy": "yarn publish --patch",
+    "spell": "cspell 'src/**/*.{ts,tsx,html,css,md}' ",
+    "cc": "prettier --check src cSpell.json",
+    "format": "prettier --write src cSpell.json"
+  },
+  "dependencies": {
+    "@stencil/core": "2.10.0",
+    "proto-ikons-wc": "0.0.32"
+  },
+  "devDependencies": {
+    "typescript": "4.4.4"
+  },
+  "license": "MIT"
+}

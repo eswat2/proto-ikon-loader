@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0"
+    />
+    <title>Stencil Component Starter</title>
+
+    <script type="module" src="/build/proto-ikon-loader-wc.esm.js"></script>
+    <script nomodule src="/build/proto-ikon-loader-wc.js"></script>
+    <style>
+      :root {
+        --clrs-navy: #001f3f;
+        --clrs-blue: #0074d9;
+        --clrs-aqua: #7fdbff;
+        --clrs-teal: #39cccc;
+        --clrs-olive: #3d9970;
+        --clrs-green: #2ecc40;
+        --clrs-lime: #01ff70;
+        --clrs-yellow: #ffdc00;
+        --clrs-orange: #ff851b;
+        --clrs-red: #ff4136;
+        --clrs-maroon: #85144b;
+        --clrs-fuchsia: #f012be;
+        --clrs-purple: #b10dc9;
+        --clrs-black: #111111;
+        --clrs-gray: #aaaaaa;
+        --clrs-silver: #dddddd;
+
+        --clrs-bada55: #bada55;
+        --clrs-slate: #708090;
+        --clrs-slate4: #4e5964;
+        --clrs-white: #ffffff;
+      }
+      body {
+        color: greenyellow;
+      }
+      .icons {
+        color: var(--clrs-red);
+        display: flex;
+        flex-direction: row;
+      }
+      .ikons {
+        color: var(--clrs-navy);
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+      }
+    </style>
+    <script type="module">
+      // NOTE:  purely for demo purposes...
+      window.protoIkonFallback = 'pulse-icon';
+    </script>
+  </head>
+  <body>
+    <div class="icons">
+      <proto-ikon-loader name="alpha" size="48"></proto-ikon-loader>
+      <proto-ikon-loader name="fingerprint" size="48"></proto-ikon-loader>
+      <proto-ikon-loader name="paw" size="64"></proto-ikon-loader>
+      <proto-ikon-loader name="pulse" size="48"></proto-ikon-loader>
+      <proto-ikon-loader name="radio" size="48"></proto-ikon-loader>
+      <proto-ikon-loader
+        name="radio"
+        size="48"
+        selected="true"
+      ></proto-ikon-loader>
+      <proto-ikon-loader name="refresh" size="48"></proto-ikon-loader>
+    </div>
+    <div class="ikons">
+      <proto-ikon-loader name="aston martin" size="48"></proto-ikon-loader>
+      <proto-ikon-loader name="audi" size="48"></proto-ikon-loader>
+      <proto-ikon-loader name="ferrari" size="48"></proto-ikon-loader>
+      <proto-ikon-loader name="land rover" size="48"></proto-ikon-loader>
+      <proto-ikon-loader name="lotus" size="48"></proto-ikon-loader>
+      <proto-ikon-loader name="mazda" size="48"></proto-ikon-loader>
+      <proto-ikon-loader name="smart" size="96"></proto-ikon-loader>
+      <proto-ikon-loader name="tesla" size="48"></proto-ikon-loader>
+      <proto-ikon-loader name="zero" size="48"></proto-ikon-loader>
+    </div>
+  </body>
+</html>
