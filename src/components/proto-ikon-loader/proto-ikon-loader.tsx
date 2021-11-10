@@ -16,18 +16,20 @@ const getIcon = (label: string) => {
 @Component({
   tag: 'proto-ikon-loader',
   styleUrl: 'proto-ikon-loader.css',
-  shadow: true,
+  shadow: false,
 })
 export class ProtoIkonLoader {
   @Prop() hex: string = 'currentColor';
   @Prop() name: string = 'slug';
   @Prop() selected: boolean = false;
   @Prop() size: number = undefined;
+  @Prop() label: string = undefined;
 
   @Element() el: HTMLElement;
 
   render() {
-    const { name, hex, selected, size } = this;
+    const { name, hex, selected, size, label } = this;
+    const title = label ? label : name;
 
     // NOTE:  we are explicitly setting undefined if no size is provided...
     this.el.style.setProperty(
@@ -39,7 +41,7 @@ export class ProtoIkonLoader {
 
     return (
       <div class="ikonBox">
-        <Tag hex={hex} selected={selected} size={size} />
+        <Tag hex={hex} selected={selected} size={size} label={title} />
       </div>
     );
   }

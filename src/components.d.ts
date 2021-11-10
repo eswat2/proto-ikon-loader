@@ -8,6 +8,7 @@ import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
     interface ProtoIkonLoader {
         "hex": string;
+        "label": string;
         "name": string;
         "selected": boolean;
         "size": number;
@@ -27,6 +28,7 @@ declare global {
 declare namespace LocalJSX {
     interface ProtoIkonLoader {
         "hex"?: string;
+        "label"?: string;
         "name"?: string;
         "selected"?: boolean;
         "size"?: number;
