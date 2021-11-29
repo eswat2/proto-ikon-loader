@@ -16,7 +16,7 @@ const getIcon = (label: string) => {
 @Component({
   tag: 'proto-ikon-loader',
   styleUrl: 'proto-ikon-loader.css',
-  shadow: false,
+  shadow: true,
 })
 export class ProtoIkonLoader {
   @Prop() hex: string = 'currentColor';

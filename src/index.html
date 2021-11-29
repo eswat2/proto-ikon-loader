@@ -48,12 +48,15 @@
         flex-direction: row;
         gap: 5px;
       }
-      fingerprint-icon {
+      [name=fingerprint] {
         color: greenyellow;
       }
-      fingerprint-icon svg {
+      [name=fingerprint] {
         color: var(--clrs-gray);
         width: 128px;
+      }
+      [selected=true] {
+        color: var(--clrs-green);
       }
     </style>
     <script type="module">
