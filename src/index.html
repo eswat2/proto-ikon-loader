@@ -51,12 +51,15 @@
       [name='fingerprint'] {
         color: greenyellow;
       }
-      [name='fingerprint'] {
+      [label='eswat2'] {
         color: var(--clrs-gray);
         width: 128px;
       }
+      [label='eswat42'] {
+        color: var(--clrs-slate);
+      }
       [selected='true'] {
-        color: var(--clrs-green);
+        color: var(--clrs-blue);
       }
     </style>
     <script type="module">
@@ -78,6 +81,7 @@
       ></proto-ikon-loader>
       <proto-ikon-loader name="refresh" size="48"></proto-ikon-loader>
     </div>
+    <hr />
     <div class="ikons">
       <proto-ikon-loader name="aston martin" size="48"></proto-ikon-loader>
       <proto-ikon-loader name="audi" size="48"></proto-ikon-loader>
@@ -88,6 +92,17 @@
       <proto-ikon-loader name="smart" size="96"></proto-ikon-loader>
       <proto-ikon-loader name="tesla" size="48"></proto-ikon-loader>
       <proto-ikon-loader name="zero" size="48"></proto-ikon-loader>
+    </div>
+    <hr />
+    <div class="icons">
+      <proto-ikon-raw name="audi" size="48"></proto-ikon-raw>
+      <proto-ikon-raw
+        name="fingerprint"
+        size="48"
+        label="eswat42"
+      ></proto-ikon-raw>
+      <proto-ikon-raw name="radio" size="48" selected="false"></proto-ikon-raw>
+      <proto-ikon-raw name="radio" size="48" selected="true"></proto-ikon-raw>
     </div>
   </body>
 </html>

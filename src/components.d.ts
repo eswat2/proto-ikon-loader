@@ -13,6 +13,13 @@ export namespace Components {
         "selected": boolean;
         "size": number;
     }
+    interface ProtoIkonRaw {
+        "hex": string;
+        "label": string;
+        "name": string;
+        "selected": boolean;
+        "size": number;
+    }
 }
 declare global {
     interface HTMLProtoIkonLoaderElement extends Components.ProtoIkonLoader, HTMLStencilElement {
@@ -21,8 +28,15 @@ declare global {
         prototype: HTMLProtoIkonLoaderElement;
         new (): HTMLProtoIkonLoaderElement;
     };
+    interface HTMLProtoIkonRawElement extends Components.ProtoIkonRaw, HTMLStencilElement {
+    }
+    var HTMLProtoIkonRawElement: {
+        prototype: HTMLProtoIkonRawElement;
+        new (): HTMLProtoIkonRawElement;
+    };
     interface HTMLElementTagNameMap {
         "proto-ikon-loader": HTMLProtoIkonLoaderElement;
+        "proto-ikon-raw": HTMLProtoIkonRawElement;
     }
 }
 declare namespace LocalJSX {
@@ -33,8 +47,16 @@ declare namespace LocalJSX {
         "selected"?: boolean;
         "size"?: number;
     }
+    interface ProtoIkonRaw {
+        "hex"?: string;
+        "label"?: string;
+        "name"?: string;
+        "selected"?: boolean;
+        "size"?: number;
+    }
     interface IntrinsicElements {
         "proto-ikon-loader": ProtoIkonLoader;
+        "proto-ikon-raw": ProtoIkonRaw;
     }
 }
 export { LocalJSX as JSX };
@@ -42,6 +64,7 @@ declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
             "proto-ikon-loader": LocalJSX.ProtoIkonLoader & JSXBase.HTMLAttributes<HTMLProtoIkonLoaderElement>;
+            "proto-ikon-raw": LocalJSX.ProtoIkonRaw & JSXBase.HTMLAttributes<HTMLProtoIkonRawElement>;
         }
     }
 }
