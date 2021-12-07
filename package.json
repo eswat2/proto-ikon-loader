@@ -31,7 +31,7 @@
     "proto-ikons-wc": "0.0.39"
   },
   "devDependencies": {
-    "cspell": "5.13.1",
+    "cspell": "5.13.2",
     "prettier": "2.5.1",
     "typescript": "4.5.2"
   },
