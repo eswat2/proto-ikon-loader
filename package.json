@@ -33,7 +33,7 @@
   "devDependencies": {
     "cspell": "5.13.2",
     "prettier": "2.5.1",
-    "typescript": "4.5.2"
+    "typescript": "4.5.3"
   },
   "license": "MIT"
 }
