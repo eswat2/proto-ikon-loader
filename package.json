@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@stencil/core": "2.12.0",
-    "proto-ikons-wc": "0.0.41"
+    "proto-ikons-wc": "0.0.42"
   },
   "devDependencies": {
     "cspell": "5.13.3",
