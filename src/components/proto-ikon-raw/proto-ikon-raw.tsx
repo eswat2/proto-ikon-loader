@@ -1,6 +1,6 @@
 import { Component, Element, h, Prop } from '@stencil/core';
 import 'proto-ikons-wc';
-import { icons, ikons } from 'proto-ikons-wc';
+import { icons, ikons } from 'proto-ikons-wc/dist/components';
 
 const global = 'protoIkonFallback';
 const fallback = window.hasOwnProperty(global) ? window[global] : 'slug-icon';
