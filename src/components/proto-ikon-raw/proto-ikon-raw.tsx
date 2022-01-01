@@ -3,7 +3,9 @@ import 'proto-ikons-wc';
 import { icons, ikons } from 'proto-ikons-wc/dist/components';
 
 const global = 'protoIkonFallback';
-const fallback = window.hasOwnProperty(global) ? window[global] : 'slug-icon';
+const fallback = Object.prototype.hasOwnProperty.call(window, global)
+  ? window[global]
+  : 'slug-icon';
 
 const getIcon = (label: string) => {
   const name = label.toLowerCase().split(' ').join('-');
@@ -19,9 +21,9 @@ const getIcon = (label: string) => {
   shadow: false,
 })
 export class ProtoIkonRaw {
-  @Prop() hex: string = 'currentColor';
-  @Prop() name: string = 'slug';
-  @Prop() selected: boolean = false;
+  @Prop() hex = 'currentColor';
+  @Prop() name = 'slug';
+  @Prop() selected = false;
   @Prop() size: number = undefined;
   @Prop() label: string = undefined;
 
