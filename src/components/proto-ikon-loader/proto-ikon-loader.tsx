@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { Component, Element, h, Prop } from '@stencil/core';
 import 'proto-ikons-wc';
 import { icons, ikons } from 'proto-ikons-wc/dist/components';
