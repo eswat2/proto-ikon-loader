@@ -1,5 +1,7 @@
 # proto-ikon-loader-wc
 
+[![npm version](https://badge.fury.io/js/proto-ikon-loader-wc.svg)](https://npmjs.com/package/proto-ikon-loader-wc)
+
 a prototype icon loader written in Stencil...
 
 - loads icons from proto-ikons-wc
