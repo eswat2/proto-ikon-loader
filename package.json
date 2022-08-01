@@ -28,14 +28,14 @@
     "lint": "eslint src/**/*.{ts,tsx}"
   },
   "dependencies": {
-    "@stencil/core": "2.17.1",
-    "proto-ikons-wc": "0.0.65"
+    "@stencil/core": "2.17.2",
+    "proto-ikons-wc": "0.0.66"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "5.31.0",
     "@typescript-eslint/parser": "5.31.0",
     "cspell": "6.5.0",
-    "eslint": "8.20.0",
+    "eslint": "8.21.0",
     "prettier": "2.7.1",
     "typescript": "4.7.4"
   },
