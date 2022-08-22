@@ -28,7 +28,7 @@
     "lint": "eslint src/**/*.{ts,tsx}"
   },
   "dependencies": {
-    "@stencil/core": "2.17.3",
+    "@stencil/core": "2.17.4",
     "proto-ikons-wc": "0.0.67"
   },
   "devDependencies": {
