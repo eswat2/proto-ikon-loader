@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@stencil/core": "2.17.4",
-    "proto-ikons-wc": "0.0.69"
+    "proto-ikons-wc": "0.0.70"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "5.36.2",
@@ -37,7 +37,7 @@
     "cspell": "6.8.1",
     "eslint": "8.23.0",
     "prettier": "2.7.1",
-    "typescript": "4.8.2"
+    "typescript": "4.8.3"
   },
   "license": "MIT"
 }
