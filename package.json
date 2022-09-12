@@ -28,8 +28,8 @@
     "lint": "eslint src/**/*.{ts,tsx}"
   },
   "dependencies": {
-    "@stencil/core": "2.17.4",
-    "proto-ikons-wc": "0.0.70"
+    "@stencil/core": "2.18.0",
+    "proto-ikons-wc": "0.0.71"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "5.36.2",
