@@ -1,4 +1,4 @@
-import { icons, ikons } from 'proto-ikons-wc/dist/components';
+import { icons, ikons } from 'proto-ikons-wc/dist';
 
 const names = {
   icons: [],
