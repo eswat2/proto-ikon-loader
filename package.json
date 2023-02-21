@@ -32,8 +32,8 @@
     "proto-ikons-wc": "0.0.89"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "5.52.0",
-    "@typescript-eslint/parser": "5.52.0",
+    "@typescript-eslint/eslint-plugin": "5.53.0",
+    "@typescript-eslint/parser": "5.53.0",
     "cspell": "6.26.3",
     "eslint": "8.34.0",
     "prettier": "2.8.4",
