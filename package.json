@@ -36,7 +36,7 @@
     "@typescript-eslint/parser": "6.18.1",
     "cspell": "8.3.2",
     "eslint": "8.56.0",
-    "prettier": "3.1.1",
+    "prettier": "3.2.0",
     "typescript": "5.3.3"
   },
   "license": "MIT"
