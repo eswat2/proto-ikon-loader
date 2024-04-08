@@ -1,6 +1,6 @@
 {
   "name": "proto-ikon-loader-wc",
-  "version": "0.0.370",
+  "version": "0.0.371",
   "description": "Stencil Component Starter",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
@@ -32,8 +32,8 @@
     "proto-ikons-wc": "0.0.144"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "7.5.0",
-    "@typescript-eslint/parser": "7.5.0",
+    "@typescript-eslint/eslint-plugin": "7.6.0",
+    "@typescript-eslint/parser": "7.6.0",
     "cspell": "8.6.1",
     "eslint": "9.0.0",
     "prettier": "3.2.5",
