@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@stencil/core": "4.21.0",
-    "proto-ikons-wc": "0.0.159"
+    "proto-ikons-wc": "0.0.160"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "8.3.0",
