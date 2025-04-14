@@ -28,7 +28,7 @@
     "lint": "eslint src/**/*.{ts,tsx}"
   },
   "dependencies": {
-    "@stencil/core": "4.29.2",
+    "@stencil/core": "4.29.3",
     "proto-ikons-wc": "0.1.8"
   },
   "devDependencies": {
@@ -39,5 +39,6 @@
     "prettier": "3.5.3",
     "typescript": "5.8.3"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
