@@ -7,17 +7,47 @@
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
     interface ProtoIkonLoader {
+        /**
+          * @default 'currentColor'
+         */
         "hex": string;
+        /**
+          * @default undefined
+         */
         "label": string;
+        /**
+          * @default 'slug'
+         */
         "name": string;
+        /**
+          * @default false
+         */
         "selected": boolean;
+        /**
+          * @default undefined
+         */
         "size": number;
     }
     interface ProtoIkonRaw {
+        /**
+          * @default 'currentColor'
+         */
         "hex": string;
+        /**
+          * @default undefined
+         */
         "label": string;
+        /**
+          * @default 'slug'
+         */
         "name": string;
+        /**
+          * @default false
+         */
         "selected": boolean;
+        /**
+          * @default undefined
+         */
         "size": number;
     }
 }
@@ -41,17 +71,47 @@ declare global {
 }
 declare namespace LocalJSX {
     interface ProtoIkonLoader {
+        /**
+          * @default 'currentColor'
+         */
         "hex"?: string;
+        /**
+          * @default undefined
+         */
         "label"?: string;
+        /**
+          * @default 'slug'
+         */
         "name"?: string;
+        /**
+          * @default false
+         */
         "selected"?: boolean;
+        /**
+          * @default undefined
+         */
         "size"?: number;
     }
     interface ProtoIkonRaw {
+        /**
+          * @default 'currentColor'
+         */
         "hex"?: string;
+        /**
+          * @default undefined
+         */
         "label"?: string;
+        /**
+          * @default 'slug'
+         */
         "name"?: string;
+        /**
+          * @default false
+         */
         "selected"?: boolean;
+        /**
+          * @default undefined
+         */
         "size"?: number;
     }
     interface IntrinsicElements {
