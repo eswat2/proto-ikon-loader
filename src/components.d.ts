@@ -114,17 +114,33 @@ declare namespace LocalJSX {
          */
         "size"?: number;
     }
+
+    interface ProtoIkonLoaderAttributes {
+        "hex": string;
+        "name": string;
+        "selected": boolean;
+        "size": number;
+        "label": string;
+    }
+    interface ProtoIkonRawAttributes {
+        "hex": string;
+        "name": string;
+        "selected": boolean;
+        "size": number;
+        "label": string;
+    }
+
     interface IntrinsicElements {
-        "proto-ikon-loader": ProtoIkonLoader;
-        "proto-ikon-raw": ProtoIkonRaw;
+        "proto-ikon-loader": Omit<ProtoIkonLoader, keyof ProtoIkonLoaderAttributes> & { [K in keyof ProtoIkonLoader & keyof ProtoIkonLoaderAttributes]?: ProtoIkonLoader[K] } & { [K in keyof ProtoIkonLoader & keyof ProtoIkonLoaderAttributes as `attr:${K}`]?: ProtoIkonLoaderAttributes[K] } & { [K in keyof ProtoIkonLoader & keyof ProtoIkonLoaderAttributes as `prop:${K}`]?: ProtoIkonLoader[K] };
+        "proto-ikon-raw": Omit<ProtoIkonRaw, keyof ProtoIkonRawAttributes> & { [K in keyof ProtoIkonRaw & keyof ProtoIkonRawAttributes]?: ProtoIkonRaw[K] } & { [K in keyof ProtoIkonRaw & keyof ProtoIkonRawAttributes as `attr:${K}`]?: ProtoIkonRawAttributes[K] } & { [K in keyof ProtoIkonRaw & keyof ProtoIkonRawAttributes as `prop:${K}`]?: ProtoIkonRaw[K] };
     }
 }
 export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
-            "proto-ikon-loader": LocalJSX.ProtoIkonLoader & JSXBase.HTMLAttributes<HTMLProtoIkonLoaderElement>;
-            "proto-ikon-raw": LocalJSX.ProtoIkonRaw & JSXBase.HTMLAttributes<HTMLProtoIkonRawElement>;
+            "proto-ikon-loader": LocalJSX.IntrinsicElements["proto-ikon-loader"] & JSXBase.HTMLAttributes<HTMLProtoIkonLoaderElement>;
+            "proto-ikon-raw": LocalJSX.IntrinsicElements["proto-ikon-raw"] & JSXBase.HTMLAttributes<HTMLProtoIkonRawElement>;
         }
     }
 }
