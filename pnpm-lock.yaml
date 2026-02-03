@@ -12,8 +12,8 @@ importers:
         specifier: 4.42.0
         version: 4.42.0
       proto-ikons-wc:
-        specifier: 0.1.35
-        version: 0.1.35
+        specifier: 0.1.36
+        version: 0.1.36
     devDependencies:
       '@typescript-eslint/eslint-plugin':
         specifier: 8.54.0
@@ -908,8 +908,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  proto-ikons-wc@0.1.35:
-    resolution: {integrity: sha512-8a0VE+5R8KDHBsZ8tfVbxaMlmBBoCWtz/DiVwnE4F5+T6FwTM6rHRDAlP5iUA+5RUoCXqOxkBhvCV1ZxT9yF4g==}
+  proto-ikons-wc@0.1.36:
+    resolution: {integrity: sha512-t311hgJbhK9YM/jRGvaCC3jm5/C+G7Oe+z7UNRvKoU985rJL5iM2sjmdt7zapYkBK8h/lTeRGhjaRpiMw+or7g==}
 
   punycode@2.3.1:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
@@ -1916,7 +1916,7 @@ snapshots:
 
   prettier@3.8.1: {}
 
-  proto-ikons-wc@0.1.35:
+  proto-ikons-wc@0.1.36:
     dependencies:
       '@stencil/core': 4.42.0
 
