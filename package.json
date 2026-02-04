@@ -36,7 +36,7 @@
     "@typescript-eslint/eslint-plugin": "8.54.0",
     "@typescript-eslint/parser": "8.54.0",
     "bumpp": "10.4.0",
-    "cspell": "9.6.3",
+    "cspell": "9.6.4",
     "eslint": "9.39.2",
     "only-allow": "1.2.2",
     "prettier": "3.8.1",
