@@ -33,8 +33,6 @@
     "proto-ikons-wc": "0.1.38"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "8.54.0",
-    "@typescript-eslint/parser": "8.54.0",
     "bumpp": "10.4.1",
     "cspell": "9.6.4",
     "eslint": "10.0.0",
