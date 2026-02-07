@@ -30,14 +30,14 @@
   },
   "dependencies": {
     "@stencil/core": "4.42.1",
-    "proto-ikons-wc": "0.1.37"
+    "proto-ikons-wc": "0.1.38"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "8.54.0",
     "@typescript-eslint/parser": "8.54.0",
     "bumpp": "10.4.1",
     "cspell": "9.6.4",
-    "eslint": "9.39.2",
+    "eslint": "10.0.0",
     "only-allow": "1.2.2",
     "prettier": "3.8.1",
     "typescript": "5.9.3",
