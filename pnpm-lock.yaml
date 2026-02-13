@@ -12,8 +12,8 @@ importers:
         specifier: 4.43.0
         version: 4.43.0
       proto-ikons-wc:
-        specifier: 0.1.38
-        version: 0.1.38
+        specifier: 0.1.39
+        version: 0.1.39
     devDependencies:
       bumpp:
         specifier: 10.4.1
@@ -366,11 +366,6 @@ packages:
     resolution: {integrity: sha512-AyleYRPU7+rgkMWbEh71fQlrzRfeP6SyMnRf9XX4fCdDPAJumdSBqYEcWPMzVQ4ScAl7E4oFfK0GUVn77xSwbw==}
     cpu: [x64]
     os: [win32]
-
-  '@stencil/core@4.42.1':
-    resolution: {integrity: sha512-KsjkaWnJmjMcsLjTK77FJV/8OK9qZ4f83/sXzYsjkUF21pqpNrDUkY6/+rnVFWnVfoYMpNdjWfGyJem4VlcMXw==}
-    engines: {node: '>=16.0.0', npm: '>=7.10.0'}
-    hasBin: true
 
   '@stencil/core@4.43.0':
     resolution: {integrity: sha512-6Uj2Z3lzLuufYAE7asZ6NLKgSwsB9uxl84Eh34PASnUjfj32GkrP4DtKK7fNeh1WFGGyffsTDka3gwtl+4reUg==}
@@ -807,8 +802,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  proto-ikons-wc@0.1.38:
-    resolution: {integrity: sha512-ITpWJHEeyShLyfRVijlxZxfgORrok8/AcYcn5Zuubb23EDIwIKLOFmbjwt6eICD8zk2vG8R4ojxHMAh8G3evYA==}
+  proto-ikons-wc@0.1.39:
+    resolution: {integrity: sha512-jERQd66KFp5GIhlp3uNVy+KyuVlKpv+1oBKqqlIKef6iM40kz40IwVTHBfA67aeyd3F7jJZ2h150hyD+LymxJQ==}
 
   punycode@2.3.1:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
@@ -1192,17 +1187,6 @@ snapshots:
 
   '@rollup/rollup-win32-x64-msvc@4.34.9':
     optional: true
-
-  '@stencil/core@4.42.1':
-    optionalDependencies:
-      '@rollup/rollup-darwin-arm64': 4.34.9
-      '@rollup/rollup-darwin-x64': 4.34.9
-      '@rollup/rollup-linux-arm64-gnu': 4.34.9
-      '@rollup/rollup-linux-arm64-musl': 4.34.9
-      '@rollup/rollup-linux-x64-gnu': 4.34.9
-      '@rollup/rollup-linux-x64-musl': 4.34.9
-      '@rollup/rollup-win32-arm64-msvc': 4.34.9
-      '@rollup/rollup-win32-x64-msvc': 4.34.9
 
   '@stencil/core@4.43.0':
     optionalDependencies:
@@ -1673,9 +1657,9 @@ snapshots:
 
   prettier@3.8.1: {}
 
-  proto-ikons-wc@0.1.38:
+  proto-ikons-wc@0.1.39:
     dependencies:
-      '@stencil/core': 4.42.1
+      '@stencil/core': 4.43.0
 
   punycode@2.3.1: {}
 
