@@ -12,12 +12,12 @@ importers:
         specifier: 4.43.2
         version: 4.43.2
       proto-ikons-wc:
-        specifier: 0.1.41
-        version: 0.1.41
+        specifier: 0.1.42
+        version: 0.1.42
     devDependencies:
       bumpp:
-        specifier: 11.0.0
-        version: 11.0.0
+        specifier: 11.0.1
+        version: 11.0.1
       cspell:
         specifier: 9.7.0
         version: 9.7.0
@@ -411,8 +411,8 @@ packages:
     resolution: {integrity: sha512-h+DEnpVvxmfVefa4jFbCf5HdH5YMDXRsmKflpf1pILZWRFlTbJpxeU55nJl4Smt5HQaGzg1o6RHFPJaOqnmBDg==}
     engines: {node: 18 || 20 || >=22}
 
-  bumpp@11.0.0:
-    resolution: {integrity: sha512-rxW8H4VIB+KvnNDZ87y4tyktHydN4wzmXHYJ8CfzhWl8yKd6yuQMPcV78Hrz47udmBssjrN5wQo+JLmyU94gaA==}
+  bumpp@11.0.1:
+    resolution: {integrity: sha512-X0ti27I/ewsx/u0EJSyl0IZWWOE95q+wIpAG/60kc5gqMNR4a23YJdd3lL7JsBN11TgLbCM4KpfGMuFfdigb4g==}
     engines: {node: '>=20.19.0'}
     hasBin: true
 
@@ -727,8 +727,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  proto-ikons-wc@0.1.41:
-    resolution: {integrity: sha512-qXfLa5krM7P1OjkLFFQ9loEqn0dt6dmLz2yocovi/gk3v/6Zk0LUXdi5gkCD446E/CYZK7V2labhAxcJWE82ag==}
+  proto-ikons-wc@0.1.42:
+    resolution: {integrity: sha512-gOtjWSpnUGYt8ZVBnOWPXm/7GPm8pOWGomBGZDCnYm7PwY3RZTl01zvu39GPzdPj5Lnv+GCTDTlrrwtzb6KYfw==}
 
   punycode@2.3.1:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
@@ -1159,7 +1159,7 @@ snapshots:
     dependencies:
       balanced-match: 4.0.4
 
-  bumpp@11.0.0:
+  bumpp@11.0.1:
     dependencies:
       args-tokenizer: 0.3.0
       cac: 7.0.0
@@ -1505,7 +1505,7 @@ snapshots:
 
   prettier@3.8.1: {}
 
-  proto-ikons-wc@0.1.41:
+  proto-ikons-wc@0.1.42:
     dependencies:
       '@stencil/core': 4.43.2
 
