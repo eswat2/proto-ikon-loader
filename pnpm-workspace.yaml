@@ -1,2 +1,4 @@
+allowBuilds:
+  proto-ikons-wc: true
 onlyBuiltDependencies:
   - proto-ikons-wc
