@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "@stencil/core": "4.43.4",
-    "proto-ikons-wc": "0.1.48"
+    "proto-ikons-wc": "0.1.49"
   },
   "devDependencies": {
     "bumpp": "11.0.1",
