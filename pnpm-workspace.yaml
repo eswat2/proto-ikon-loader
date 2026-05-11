@@ -3,6 +3,6 @@ packages:
   - 'packages/*'
 
 allowBuilds:
-  esbuild: true
-  proto-ikons-wc: true
-  proto-tailwindcss-clrs: true
+  'esbuild': true
+  'proto-ikons-wc': true
+  'proto-tailwindcss-clrs': true
