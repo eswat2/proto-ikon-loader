@@ -14,11 +14,6 @@
     "dist/",
     "loader/"
   ],
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "proto-ikons-wc"
-    ]
-  },
   "scripts": {
     "bump": "bumpp patch --commit --tag --push --yes",
     "release": "pnpm bump && pnpm build && pnpm publish",
@@ -35,7 +30,7 @@
   },
   "dependencies": {
     "@stencil/core": "4.43.4",
-    "proto-ikons-wc": "0.1.51"
+    "proto-ikons-wc": "0.1.52"
   },
   "devDependencies": {
     "bumpp": "11.1.0",

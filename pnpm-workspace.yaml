@@ -1,4 +1,7 @@
+packages:
+  - 'apps/*'
+  - 'packages/*'
+
 allowBuilds:
-  proto-ikons-wc: true
-onlyBuiltDependencies:
-  - proto-ikons-wc
+  esbuild: true
+  proto-tailwindcss-clrs: true
