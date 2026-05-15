@@ -35,7 +35,7 @@
   "devDependencies": {
     "bumpp": "11.1.0",
     "cspell": "10.0.0",
-    "eslint": "10.3.0",
+    "eslint": "10.4.0",
     "only-allow": "1.2.2",
     "prettier": "3.8.3",
     "typescript": "5.9.3",
