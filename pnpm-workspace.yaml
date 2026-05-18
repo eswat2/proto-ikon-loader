@@ -6,3 +6,6 @@ allowBuilds:
   'esbuild': true
   'proto-ikons-wc': true
   'proto-tailwindcss-clrs': true
+
+minimumReleaseAgeExclude:
+  - proto-ikons-wc@0.1.57
