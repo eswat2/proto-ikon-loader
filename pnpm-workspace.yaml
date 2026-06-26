@@ -9,3 +9,4 @@ allowBuilds:
 
 minimumReleaseAgeExclude:
   - prettier@3.8.5
+  - proto-ikons-wc@0.1.68
