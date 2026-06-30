@@ -1,6 +1,6 @@
 {
   "name": "proto-ikon-loader-wc",
-  "version": "0.1.205",
+  "version": "0.1.206",
   "description": "Stencil Component Starter",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
