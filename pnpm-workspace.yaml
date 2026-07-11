@@ -8,5 +8,5 @@ allowBuilds:
   'proto-tailwindcss-clrs': true
 
 minimumReleaseAgeExclude:
-  - prettier@3.9.5
+  - eslint@10.7.0
   - proto-ikons-wc@0.1.74
