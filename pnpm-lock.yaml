@@ -12,8 +12,8 @@ importers:
         specifier: 4.43.5
         version: 4.43.5
       proto-ikons-wc:
-        specifier: 0.1.81
-        version: 0.1.81
+        specifier: 0.1.82
+        version: 0.1.82
     devDependencies:
       bumpp:
         specifier: 12.0.0
@@ -273,8 +273,8 @@ packages:
     resolution: {integrity: sha512-abYYgI29wJhWIfWTYrYuzRYDcHQUQ1N5ylnhxYn1NJnIQMqUWGLbDmt12JABtZ+R6h6UNatQrS7rhP86etvJyQ==}
     engines: {node: '>=22.18.0'}
 
-  '@eslint-community/eslint-utils@4.9.1':
-    resolution: {integrity: sha512-phrYmNiYppR7znFEdqgfWHXR6NCkZEK7hwWDHZUjit/2/U0r6XvkDl0SYnoM51Hq7FhCGdLDT6zxCCOY1hexsQ==}
+  '@eslint-community/eslint-utils@4.10.1':
+    resolution: {integrity: sha512-cuadcxVFE8sDK6iWJbs8Sn0av2Nrh2QSGQhVlBW9AaAHqHwjWsZHT8LJ4hFGPh7ASBV2deFdM7H/DPjulmh8rg==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
@@ -589,8 +589,8 @@ packages:
     resolution: {integrity: sha512-f7ccFPK3SXFHpx15UIGyRJ/FJQctuKZ0zVuN3frBo4HnK3cay9VEW0R6yPYFHC0AgqhukPzKjq22t5DmAyqGyw==}
     engines: {node: '>=16'}
 
-  flatted@3.4.2:
-    resolution: {integrity: sha512-PjDse7RzhcPkIJwy5t7KPWQSZ9cAbzQXcafsetQoD7sOJRQlGikNbx7yZp2OotDnJyrDcbyRq3Ttb18iYOqkxA==}
+  flatted@3.4.3:
+    resolution: {integrity: sha512-/zipXxyO6rGvuNGDiULY9MvEGSkb2gaG4GGH4ygMi0ZZzyMHdUZBmntJmx5x1G2VuPytCwGN4xsJP6cw+sK+vQ==}
 
   gensequence@8.0.8:
     resolution: {integrity: sha512-omMVniXEXpdx/vKxGnPRoO2394Otlze28TyxECbFVyoSpZ9H3EO7lemjcB12OpQJzRW4e5tt/dL1rOxry6aMHg==}
@@ -715,8 +715,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  proto-ikons-wc@0.1.81:
-    resolution: {integrity: sha512-Td2/GlwqPtz5Dx0mGXmuNwnvg/KC0poWe/dOKziEI0lqOAkTxh8InrKpkk8JRHNsvtie6cfTaXoflF6tWAa9Mw==}
+  proto-ikons-wc@0.1.82:
+    resolution: {integrity: sha512-FbL+ViUS6zLXhKB3VftrrAKeHLMvsmb+vdQBC5LFzeL1n/FU/TGK7/St0pX08bbThp6JWZOYr2ZVMf2zrFEmqw==}
 
   punycode@2.3.1:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
@@ -1036,7 +1036,7 @@ snapshots:
 
   '@cspell/url@10.0.1': {}
 
-  '@eslint-community/eslint-utils@4.9.1(eslint@10.7.0(jiti@2.7.0))':
+  '@eslint-community/eslint-utils@4.10.1(eslint@10.7.0(jiti@2.7.0))':
     dependencies:
       eslint: 10.7.0(jiti@2.7.0)
       eslint-visitor-keys: 3.4.3
@@ -1271,7 +1271,7 @@ snapshots:
       cspell-io: 10.0.1
       cspell-lib: 10.0.1
       fast-json-stable-stringify: 2.1.0
-      flatted: 3.4.2
+      flatted: 3.4.3
       semver: 7.8.5
       tinyglobby: 0.2.17
 
@@ -1302,7 +1302,7 @@ snapshots:
 
   eslint@10.7.0(jiti@2.7.0):
     dependencies:
-      '@eslint-community/eslint-utils': 4.9.1(eslint@10.7.0(jiti@2.7.0))
+      '@eslint-community/eslint-utils': 4.10.1(eslint@10.7.0(jiti@2.7.0))
       '@eslint-community/regexpp': 4.12.2
       '@eslint/config-array': 0.23.5
       '@eslint/config-helpers': 0.6.0
@@ -1380,10 +1380,10 @@ snapshots:
 
   flat-cache@4.0.1:
     dependencies:
-      flatted: 3.4.2
+      flatted: 3.4.3
       keyv: 4.5.4
 
-  flatted@3.4.2: {}
+  flatted@3.4.3: {}
 
   gensequence@8.0.8: {}
 
@@ -1479,7 +1479,7 @@ snapshots:
 
   prettier@3.9.6: {}
 
-  proto-ikons-wc@0.1.81:
+  proto-ikons-wc@0.1.82:
     dependencies:
       '@stencil/core': 4.43.5
 
