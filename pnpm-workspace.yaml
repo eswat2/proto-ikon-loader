@@ -8,5 +8,4 @@ allowBuilds:
   'proto-tailwindcss-clrs': true
 
 minimumReleaseAgeExclude:
-  - proto-ikons-wc@0.1.84
-  - yoctocolors@2.2.0
+  - bumpp@12.1.0
