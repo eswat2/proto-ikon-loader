@@ -12,12 +12,12 @@ importers:
         specifier: 4.43.5
         version: 4.43.5
       proto-ikons-wc:
-        specifier: 0.1.84
-        version: 0.1.84
+        specifier: 0.1.85
+        version: 0.1.85
     devDependencies:
       bumpp:
-        specifier: 12.1.0
-        version: 12.1.0
+        specifier: 12.1.1
+        version: 12.1.1
       cspell:
         specifier: 10.0.1
         version: 10.0.1
@@ -389,8 +389,8 @@ packages:
     peerDependencies:
       acorn: ^6.0.0 || ^7.0.0 || ^8.0.0
 
-  acorn@8.17.0:
-    resolution: {integrity: sha512-xRQbDb9BnwDafYNn6Vwl839DYVjqXYb1XVGtWAZ1kcDc6iwAL4hg3B1dZlRiuENFeO2H53gFG3in621AdERVAg==}
+  acorn@8.18.0:
+    resolution: {integrity: sha512-lGq+9yr1/GuAWaVYIHRjvvySG5/4VfKIvC8EWxStPdcDh/Ka7FG3twP6v4d5BkravUilhIAsG4Qj83t02LWUPQ==}
     engines: {node: '>=0.4.0'}
     hasBin: true
 
@@ -415,8 +415,8 @@ packages:
     resolution: {integrity: sha512-JZyDyq3D4AUifKTPOB7DELf6XsB3WdPuNxCtob1vFXPsSXhdAiHBWJ/tJ8HAc9aH84BK+5JFZLNkJKx3G9kzQg==}
     engines: {node: 20 || >=22}
 
-  bumpp@12.1.0:
-    resolution: {integrity: sha512-5w0H7GBqJW/ftdihZA9HI+OKsIHnHiu9XjW1HCjJ5FhpRULbGhPlKDngNIzw/mKU5FR4JLujKaeYFNeo9pJv3A==}
+  bumpp@12.1.1:
+    resolution: {integrity: sha512-6zniIxMtt+yeEwmyL4s+gB54A1J8HVQPOIeABaFB2ScmG993Q+3+5MYAbJYu/kmZ1ZXS+KzwVb/ff5V4vBXiHA==}
     engines: {node: ^22.18.0 || ^24.11.0 || >=26.0.0}
     hasBin: true
 
@@ -715,8 +715,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  proto-ikons-wc@0.1.84:
-    resolution: {integrity: sha512-Si4ATvNSqA4Elx1vkhV73nrARTA6kCPYOV/DHykm3bvxKI2BG/Oj10TfRDVliF6KJ8LDhTC8ArdiNcq8qtLOGA==}
+  proto-ikons-wc@0.1.85:
+    resolution: {integrity: sha512-T4WUf3JcxkoidigMtK0Ve5N9M8TAut2lyaVhNVrz8i54j4ui96INW0vYKukTFCzY4LKQ+EZHnkC0+ExyTr+8aQ==}
 
   punycode@2.3.1:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
@@ -1127,11 +1127,11 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  acorn-jsx@5.3.2(acorn@8.17.0):
+  acorn-jsx@5.3.2(acorn@8.18.0):
     dependencies:
-      acorn: 8.17.0
+      acorn: 8.18.0
 
-  acorn@8.17.0: {}
+  acorn@8.18.0: {}
 
   ajv@6.15.0:
     dependencies:
@@ -1152,7 +1152,7 @@ snapshots:
     dependencies:
       balanced-match: 4.0.4
 
-  bumpp@12.1.0:
+  bumpp@12.1.1:
     dependencies:
       args-tokenizer: 0.3.0
       cac: 7.0.0
@@ -1339,8 +1339,8 @@ snapshots:
 
   espree@11.2.0:
     dependencies:
-      acorn: 8.17.0
-      acorn-jsx: 5.3.2(acorn@8.17.0)
+      acorn: 8.18.0
+      acorn-jsx: 5.3.2(acorn@8.18.0)
       eslint-visitor-keys: 5.0.1
 
   esprima@4.0.1: {}
@@ -1479,7 +1479,7 @@ snapshots:
 
   prettier@3.9.6: {}
 
-  proto-ikons-wc@0.1.84:
+  proto-ikons-wc@0.1.85:
     dependencies:
       '@stencil/core': 4.43.5
 
