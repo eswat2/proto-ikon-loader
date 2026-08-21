@@ -29,13 +29,13 @@
     "lint": "eslint src/**/*.{ts,tsx}"
   },
   "dependencies": {
-    "@stencil/core": "4.44.0",
+    "@stencil/core": "4.44.1",
     "proto-ikons-wc": "0.1.92"
   },
   "devDependencies": {
     "bumpp": "12.2.1",
     "cspell": "10.0.1",
-    "eslint": "10.8.1",
+    "eslint": "10.9.0",
     "only-allow": "1.2.2",
     "prettier": "3.9.6",
     "typescript": "5.9.3",
