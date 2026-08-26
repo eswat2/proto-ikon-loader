@@ -33,7 +33,7 @@
     "proto-ikons-wc": "0.1.95"
   },
   "devDependencies": {
-    "bumpp": "12.2.1",
+    "bumpp": "12.2.2",
     "cspell": "10.1.1",
     "eslint": "10.9.1",
     "only-allow": "1.2.2",
