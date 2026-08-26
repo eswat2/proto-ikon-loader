@@ -9,4 +9,4 @@ allowBuilds:
 
 minimumReleaseAgeExclude:
   - bumpp@12.2.2
-  - proto-ikons-wc@0.1.95
+  - proto-ikons-wc@0.1.96
