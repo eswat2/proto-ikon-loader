@@ -31,3 +31,4 @@ minimumReleaseAgeExclude:
   - cspell-lib@10.2.1
   - cspell-trie-lib@10.2.1
   - cspell@10.2.1
+  - proto-ikons-wc@0.1.99
