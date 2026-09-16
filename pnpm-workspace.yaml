@@ -31,3 +31,4 @@ minimumReleaseAgeExclude:
   - cspell-trie-lib@10.3.3
   - cspell@10.3.3
   - prettier@3.9.7
+  - proto-ikons-wc@0.1.104
