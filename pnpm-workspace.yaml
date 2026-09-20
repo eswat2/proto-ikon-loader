@@ -6,7 +6,3 @@ allowBuilds:
   'esbuild': true
   'proto-ikons-wc': true
   'proto-tailwindcss-clrs': true
-
-minimumReleaseAgeExclude:
-  - prettier@3.9.8
-  - proto-ikons-wc@0.1.105
