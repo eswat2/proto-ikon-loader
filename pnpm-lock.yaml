@@ -170,8 +170,8 @@ importers:
         specifier: 4.45.0
         version: 4.45.0
       proto-ikons-wc:
-        specifier: 0.1.105
-        version: 0.1.105
+        specifier: 0.1.106
+        version: 0.1.106
     devDependencies:
       bumpp:
         specifier: 12.3.0
@@ -900,8 +900,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  proto-ikons-wc@0.1.105:
-    resolution: {integrity: sha512-4OKbiu69d5wmyQgiUPPJW5CGb0E08GE87+9WREMYxGV/ANEhAWcPhx66W0vjDDZXRmCUgc7lrUEvHPG+4WxH/Q==}
+  proto-ikons-wc@0.1.106:
+    resolution: {integrity: sha512-+b8Qu84FXB6GIbikcovdaxD3griJZS+wSLv6fNlZNo+iPAoKmlKPoQ9ACch3nEFPOkR8ZRld+A6sY9svRGXpxg==}
 
   punycode@2.3.1:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
@@ -1704,7 +1704,7 @@ snapshots:
 
   prettier@3.9.8: {}
 
-  proto-ikons-wc@0.1.105:
+  proto-ikons-wc@0.1.106:
     dependencies:
       '@stencil/core': 4.45.0
 
