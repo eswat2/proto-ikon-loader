@@ -29,7 +29,7 @@
     "lint": "eslint src/**/*.{ts,tsx}"
   },
   "dependencies": {
-    "@stencil/core": "4.45.0",
+    "@stencil/core": "4.45.1",
     "proto-ikons-wc": "0.1.106"
   },
   "devDependencies": {
@@ -37,7 +37,7 @@
     "cspell": "10.3.3",
     "eslint": "10.11.0",
     "only-allow": "1.2.2",
-    "prettier": "3.9.8",
+    "prettier": "3.9.9",
     "typescript": "5.9.3",
     "yoctocolors": "2.2.0"
   },
@@ -50,5 +50,5 @@
     "url": "https://github.com/eswat2/proto-ikon-loader/issues"
   },
   "homepage": "https://github.com/eswat2/proto-ikon-loader#readme",
-  "packageManager": "pnpm@12.5.1"
+  "packageManager": "pnpm@12.6.0+sha512.3ef68f951cb111ac204b4a5a16f0b2ddf0da56a96e0413e81d855d9f0b55ef926714709028e1cd00c405c2c5fb7b9e8ec4dc46777c805d0373c2f2ff00fd20ec"
 }

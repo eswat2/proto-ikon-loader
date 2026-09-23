@@ -8,4 +8,5 @@ allowBuilds:
   'proto-tailwindcss-clrs': true
 
 minimumReleaseAgeExclude:
-  - proto-ikons-wc@0.1.106
+  - '@stencil/core@4.45.1'
+  - prettier@3.9.9
