@@ -10,3 +10,4 @@ allowBuilds:
 minimumReleaseAgeExclude:
   - '@stencil/core@4.45.1'
   - prettier@3.9.9
+  - proto-ikons-wc@0.1.107
