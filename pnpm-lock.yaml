@@ -170,8 +170,8 @@ importers:
         specifier: 4.45.2
         version: 4.45.2
       proto-ikons-wc:
-        specifier: 0.1.108
-        version: 0.1.108
+        specifier: 0.1.109
+        version: 0.1.109
     devDependencies:
       bumpp:
         specifier: 12.3.0
@@ -543,11 +543,6 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@stencil/core@4.45.1':
-    resolution: {integrity: sha512-/b8CItmSwOzZwafxXwomJnN9X/Ic/Fxum9ka/RDHmADVf4DA4152uY7zitzLV+vk8JdXxKA7FKyLT3GKNo9R3A==}
-    engines: {node: '>=16.0.0', npm: '>=7.10.0'}
-    hasBin: true
-
   '@stencil/core@4.45.2':
     resolution: {integrity: sha512-CNkPVZsqyNMjFMX9bEkMJsvBbQxjLw480OaoamoqiLPdQCFjJQReeOjnWX1A5ivSn3UYEIJ6MoN5VXDkaHGt8Q==}
     engines: {node: '>=16.0.0', npm: '>=7.10.0'}
@@ -905,8 +900,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  proto-ikons-wc@0.1.108:
-    resolution: {integrity: sha512-6ZlfyTt6QjmZAVmre6EMgEi7eI3UmIje8DCFdSDaD7rP8Pvn3C1vkFiplFJDbfbrpTvjmbXP5euwTbyoIlYx1Q==}
+  proto-ikons-wc@0.1.109:
+    resolution: {integrity: sha512-bOVL9Y59L02hx2zd4Nn9kjQZfMJK+UpgN3Ec6/TsSaUevg810Fm4gpzTNJZ6bLr/ctlyVAia8apd9lKxIcUOeQ==}
 
   punycode@2.3.1:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
@@ -1324,17 +1319,6 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.44.0':
     optional: true
 
-  '@stencil/core@4.45.1':
-    optionalDependencies:
-      '@rollup/rollup-darwin-arm64': 4.44.0
-      '@rollup/rollup-darwin-x64': 4.44.0
-      '@rollup/rollup-linux-arm64-gnu': 4.44.0
-      '@rollup/rollup-linux-arm64-musl': 4.44.0
-      '@rollup/rollup-linux-x64-gnu': 4.44.0
-      '@rollup/rollup-linux-x64-musl': 4.44.0
-      '@rollup/rollup-win32-arm64-msvc': 4.44.0
-      '@rollup/rollup-win32-x64-msvc': 4.44.0
-
   '@stencil/core@4.45.2':
     optionalDependencies:
       '@rollup/rollup-darwin-arm64': 4.44.0
@@ -1720,9 +1704,9 @@ snapshots:
 
   prettier@3.9.9: {}
 
-  proto-ikons-wc@0.1.108:
+  proto-ikons-wc@0.1.109:
     dependencies:
-      '@stencil/core': 4.45.1
+      '@stencil/core': 4.45.2
 
   punycode@2.3.1: {}
 
